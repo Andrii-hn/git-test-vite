@@ -3,13 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-class App extends Component {
-  render() {
-
-  }
-}
-
-function App2() {
+function App() {
   const [gogi, setCount] = useState(0)
 
   return (
