@@ -1,37 +1,46 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import classNames from 'classnames'
+
+import CounterButton from './components/CounterButton/CounterButton'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
+
+import './App.scss'
 
 function App() {
-  const [gogi, setCount] = useState(0)
+  const [counterValue, setCounterValue] = useState(0)
+  let titleClass = ["card__title"]
+
+  if (counterValue > 0) {
+    titleClass.push(" card__title--positive")
+  } else if (counterValue < 0) {
+    titleClass.push(" card__title--negative")
+  } 
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Header />
+      <div className="card">        
+        <h2 className={classNames('card__title', {
+          "card__title--positive": counterValue > 0,
+          "card__title--negative": counterValue < 0
+        })}>{counterValue}</h2>
+        <CounterButton 
+          onClick={() => 
+            setCounterValue((prevCounterValue) => prevCounterValue + 1)
+          }
+        >
+          +
+        </CounterButton>
+        <CounterButton 
+          onClick={() => 
+            setCounterValue((prevCounterValue) => prevCounterValue - 1)
+          }
+        >
+          -
+        </CounterButton>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <p>gogi is {gogi}</p>
-        <button onClick={() => setCount((gogi) => gogi + 2)}>
-          increase the gogi
-        </button>
-        <button onClick={() => setCount((gogi) => gogi - 2)}>
-          decrease the gogi
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Footer />
     </>
   )
 }
