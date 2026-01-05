@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Premium Wellness Massage Device for Full Body Relaxation",
+    "price": 2499,
+    "category": "wellness",
+    "description": "This premium wellness massage device is designed to provide deep muscle relaxation, stress relief, and overall physical comfort after long working days, intense workouts, or emotional exhaustion."
+  },
+  {
+    "id": 2,
+    "title": "Advanced Aromatherapy Candle Set for Emotional Balance",
+    "price": 899,
+    "category": "relaxation",
+    "description": "A carefully selected aromatherapy candle set created to enhance emotional balance, reduce anxiety, improve mood stability, and create a calm, cozy atmosphere in your personal living space."
+  },
+  {
+    "id": 3,
+    "title": "Luxury Silk Sleep Mask with Ergonomic Comfort Design",
+    "price": 499,
+    "category": "sleep",
+    "description": "This luxury silk sleep mask offers maximum comfort and complete light blocking, helping improve sleep quality, reduce eye strain, and support deeper relaxation during rest and travel."
+  },
+  {
+    "id": 4,
+    "title": "High-End Electric Foot Spa with Heat and Massage Functions",
+    "price": 3299,
+    "category": "health",
+    "description": "A high-end electric foot spa featuring multiple massage modes, adjustable heat settings, and ergonomic design to promote circulation, relieve tension, and support daily foot care routines."
+  },
+  {
+    "id": 5,
+    "title": "Professional Yoga and Stretching Mat with Extra Cushioning",
+    "price": 1199,
+    "category": "fitness",
+    "description": "This professional yoga and stretching mat provides excellent grip, extra cushioning, and durability, making it ideal for yoga practice, meditation sessions, and daily physical stretching exercises."
+  },
+  {
+    "id": 6,
+    "title": "Smart Posture Correction Belt with Adjustable Support",
+    "price": 1599,
+    "category": "health",
+    "description": "A smart posture correction belt designed to gently align your spine, reduce back pain, improve sitting habits, and encourage healthier posture during long hours of office or home work."
+  },
+  {
+    "id": 7,
+    "title": "Organic Herbal Tea Collection for Daily Relaxation Rituals",
+    "price": 649,
+    "category": "nutrition",
+    "description": "An organic herbal tea collection featuring calming and revitalizing blends that support digestion, relaxation, mental clarity, and the creation of mindful daily wellness rituals."
+  },
+  {
+    "id": 8,
+    "title": "Noise Cancelling Over-Ear Headphones for Focus and Calm",
+    "price": 4599,
+    "category": "electronics",
+    "description": "These noise cancelling over-ear headphones are designed to eliminate external distractions, enhance focus, improve audio clarity, and create a personal zone of calm and concentration."
+  },
+  {
+    "id": 9,
+    "title": "Luxury Bath and Body Care Set with Natural Ingredients",
+    "price": 1899,
+    "category": "personal care",
+    "description": "A luxury bath and body care set made with natural ingredients to nourish skin, provide deep hydration, and transform everyday hygiene routines into relaxing self-care experiences."
+  },
+  {
+    "id": 10,
+    "title": "Adjustable LED Mood Lamp for Relaxation and Interior Design",
+    "price": 1099,
+    "category": "home",
+    "description": "This adjustable LED mood lamp offers multiple brightness levels and color modes, helping create a relaxing environment, enhance interior aesthetics, and support emotional comfort at home."
+  }
+]
